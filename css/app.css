@@ -1,0 +1,216 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #ffffff url('../img/sand.jpg'); /* Background pattern from Subtle Patterns */
+  font-family: 'Coda', cursive;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+#instructionsText, ul {
+  list-style: decimal;
+  text-align:left;
+}
+
+/*
+ * Styles for the deck of cards
+ */
+
+.deck {
+  width: 660px;
+  min-height: 680px;
+  background: linear-gradient(160deg, #ffe672 0%, #af6524 100%);
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 12px 15px 20px 0 rgba(46, 61, 73, 0.5);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 0 3em;
+}
+
+.deck .card {
+  height: 125px;
+  width: 125px;
+  background: #3e1919ba;
+  font-size: 0;
+  color: #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px 2px 20px 0 rgba(46, 61, 73, 0.5);
+}
+
+.deck .card.open {
+  transform: rotateY(0);
+  background: #02b3e4;
+  cursor: default;
+}
+
+.deck .card.show {
+  font-size: 33px;
+  display: block;
+}
+
+.deck .card.match {
+  cursor: default;
+  background: #02ccba;
+  font-size: 33px;
+}
+
+.image {
+  width: 125px;
+  height: 125px;
+  border-radius: 8px;
+}
+
+#winnerDiv {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(67, 51, 24, 0.8);
+}
+
+#winnerText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+#winnerTitle {
+  font-size: 40px;
+}
+
+#playAgain{
+  color: #eac541;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+#yourMoves, #yourStars {
+  font-size: 20px;
+}
+
+#loseGameDiv {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(67, 51, 24, 0.8);
+}
+
+#loseText {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+#loseTitle {
+  font-size: 40px;
+
+}
+#losePlayAgain{
+  color: #eac541;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+#loseYourMoves, #loseYourStars {
+  font-size: 20px;
+}
+
+#instructionsDiv {
+  position: fixed;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(67, 51, 24, 0.8);
+}
+
+#instructionsText{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  text-align: center;
+}
+
+#instructionsTitle {
+  font-size: 40px;
+}
+
+#startTheGame{
+  color: #eac541;
+  text-decoration: none;
+  font-size: 40px;
+}
+
+
+/*
+ * Styles for the Score Panel
+ */
+
+.score-panel {
+  text-align: left;
+  width: 345px;
+  margin-bottom: 10px;
+}
+
+.score-panel .stars {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  margin: 0 5px 0 0;
+}
+
+.score-panel .stars li {
+  list-style: none;
+  display: inline-block;
+}
+
+.score-panel .restart {
+  float: right;
+  cursor: pointer;
+}
