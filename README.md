@@ -2,17 +2,21 @@
 
 ## Table of Contents
 
-* [Instructions](#instructions)
+* [Game description](#game-description)
+* [Game rules](#game-rules)
 * [Pictures](#pictures)
 * [Contributing](#contributing)
 
-## Instructions
+## Game description
 
-The starter project has some HTML and CSS styling to display a static version of the Memory Game project. You'll need to convert this project from a static project to an interactive one. This will require modifying the HTML and CSS files, but primarily the JavaScript file.
+This is a memory game that can help you to improve your memory and concentration skills. If you want to know more about games to improve the memory visit [Concentration (game)](https://en.wikipedia.org/wiki/Concentration_(game)) in Wikipedia.
 
-To get started, open `js/app.js` and start building out the app's functionality
 
-For specific, detailed instructions, look at the project instructions in the [Udacity Classroom](https://classroom.udacity.com/me).
+## Game rules
+
+1. You have 60 seconds to find all the pairs.
+2. After 12 moves you lose 1 star every 4 moves.
+3. You have no more than 20 moves to win the game.
 
 
 ## Pictures
@@ -22,6 +26,4 @@ All pictures are property of Angel Gabriel Abad.
 
 ## Contributing
 
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+It is not possible to contribute to his project.
