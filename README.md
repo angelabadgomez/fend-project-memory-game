@@ -5,10 +5,11 @@
 * [Game description](#game-description)
 * [Screenshots](#screenshots)
 * [Game rules](#game-rules)
-* [Pictures](#pictures)
 * [Known issues](#known-issues)
-* [Authors](#authors)
+* [Author](#author)
 * [Contributing](#contributing)
+* [Dependencies](#dependencies)
+* [Resources](#resources)
 
 ## Game description
 
@@ -27,21 +28,51 @@ This is a memory game that can help you to improve your memory and concentration
 3. You have no more than 20 moves to win the game.
 
 
-## Pictures
-
-All pictures are property of Angel Gabriel Abad.
-
-
 ## Known issues
 
 To restart the game reloads all the page causing the browser to download the js and css files one more time. This will be fixed in the next version.
 
 
-## Authors
+## Author
 
-Game made by Angel Gabriel Abad. Shuffle function taken from [http://stackoverflow.com/a/2450976][http://stackoverflow.com/a/2450976]. Base HTML code and CSS styles were provided by the Udacity Nanodegree Front-End Web Developer Program for this project.
+Game made by Angel Gabriel Abad.
 
 
 ## Contributing
 
 It is not possible to contribute to his project.
+
+
+## Dependencies
+
+* Web browser with Javascript enabled.
+
+
+## Resources
+
+### Fonts
+* [https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css](https://maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css)
+* [https://fonts.googleapis.com/css?family=Coda](https://fonts.googleapis.com/css?family=Coda)
+
+### Technologies
+
+* HTML
+* CSS
+* Javascript
+* Bootstrap and Google fonts
+
+### Shuffle function
+
+[http://stackoverflow.com/a/2450976][http://stackoverflow.com/a/2450976]
+
+### Base HTML code and CSS styles
+
+Provided by the Udacity Nanodegree Front-End Web Developer Program for this project.
+
+### Pictures
+
+All pictures are property of Angel Gabriel Abad.
+
+### Background image
+
+Taken from [https://www.bingapis.com/images/search?q=Desert+Sand+Texture+Seamless&first=85&count=28&form=IBASEP&cw=1904&ch=1012](https://www.bingapis.com/images/search?q=Desert+Sand+Texture+Seamless&first=85&count=28&form=IBASEP&cw=1904&ch=1012)
