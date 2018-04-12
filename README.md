@@ -3,8 +3,10 @@
 ## Table of Contents
 
 * [Game description](#game-description)
+* [Screenshots](#screenshots)
 * [Game rules](#game-rules)
 * [Pictures](#pictures)
+* [Known issues](#known-issues)
 * [Authors](#authors)
 * [Contributing](#contributing)
 
