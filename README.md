@@ -2,26 +2,26 @@
 
 ## Table of Contents
 
-* [Game description](#game-description)
+* [Game's description](#games-description)
 * [Screenshots](#screenshots)
-* [Game rules](#game-rules)
+* [Game's rules](#games-rules)
 * [Known issues](#known-issues)
 * [Author](#author)
 * [Contributing](#contributing)
 * [Dependencies](#dependencies)
 * [Resources](#resources)
 
-## Game description
+## Game's description
 
 This is a memory game that can help you to improve your memory and concentration skills. If you want to know more about games to improve the memory visit [Concentration (game)](https://en.wikipedia.org/wiki/Concentration_(game)) in Wikipedia.
 
 
 ## Screenshots
 
-![Game screenshot](https://angelabadgomez.github.io/fend-project-memory-game/img/screenshot.jpg "Game screenshot")
+![Game's screenshot](https://angelabadgomez.github.io/fend-project-memory-game/img/screenshot.jpg "Game's screenshot")
 
 
-## Game rules
+## Game's rules
 
 1. You have 60 seconds to find all the pairs.
 2. After 12 moves you lose 1 star every 4 moves.
@@ -40,7 +40,7 @@ Game made by Angel Gabriel Abad.
 
 ## Contributing
 
-It is not possible to contribute to his project.
+It is not possible to contribute to this project.
 
 
 ## Dependencies
@@ -63,7 +63,7 @@ It is not possible to contribute to his project.
 
 ### Shuffle function
 
-[http://stackoverflow.com/a/2450976][http://stackoverflow.com/a/2450976]
+Taken from [http://stackoverflow.com/a/2450976][http://stackoverflow.com/a/2450976](http://stackoverflow.com/a/2450976][http://stackoverflow.com/a/2450976)
 
 ### Base HTML code and CSS styles
 
